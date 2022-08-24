@@ -8,6 +8,6 @@ COPY --chown=1001:0 server.xml /config/
 COPY target/veda-itg-core-0.0.1-SNAPSHOT.war config/dropins/
 EXPOSE 9080
 #RUN configure.sh
-RUN installUtility install defaultServer
+#RUN installUtility install defaultServer
 
 
